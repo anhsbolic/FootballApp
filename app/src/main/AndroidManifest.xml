@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rioaska.studio.footballschedulematch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_football"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_football_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.splash.SplashScreenActivity"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.home.HomeActivity"
+            android:label="@string/text_apps"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".view.detail.DetailActivity"
+            android:label="@string/text_null"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".view.detailplayer.DetailPlayerActivity"
+            android:label="@string/text_null"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".view.detailteam.DetailTeamActivity"
+            android:label="@string/text_null"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".view.settingleague.SettingLeagueActivity"
+            android:label="@string/text_null"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".view.searchteam.SearchTeamActivity"
+            android:label="@string/text_null"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_team" />
+        </activity>
+        <activity
+            android:name=".view.searchmatch.SearchMatchActivity"
+            android:label="@string/text_null"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_match" />
+        </activity>
+    </application>
+
+</manifest>

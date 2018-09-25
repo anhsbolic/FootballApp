@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Home-->
+    <item name="mn_bottom_prev" type="id" />
+    <item name="mn_bottom_next" type="id" />
+
+    <!--Setting-->
+    <item name="spSetting" type="id" />
+    <item name="pbSetting" type="id" />
+
+    <!--Prev Match-->
+    <item name="ll_prev_container" type="id" />
+    <item name="tvTitlePrev" type="id" />
+    <item name="rvPrev" type="id" />
+    <item name="spPrev" type="id" />
+
+    <!--Next Match-->
+    <item name="ll_next_container" type="id" />
+    <item name="tvTitleNext" type="id" />
+    <item name="rvNext" type="id" />
+    <item name="ll_content_next" type="id" />
+    <item name="spNext" type="id" />
+    <item name="ivBell" type="id" />
+
+    <!--Favorite Match-->
+    <item name="ll_fav_container" type="id" />
+    <item name="tvTitleFav" type="id" />
+    <item name="rvFav" type="id" />
+
+    <!--Favorite Team-->
+    <item name="ll_favteam_container" type="id" />
+    <item name="tvTitleFavTeam" type="id" />
+    <item name="rvFavTeam" type="id" />
+
+    <!--Team List-->
+    <item name="tvTitleTeams" type="id" />
+    <item name="llTeamList" type="id" />
+    <item name="ivTeam" type="id" />
+    <item name="tvDescTeams" type="id" />
+    <item name="rvTeams" type="id" />
+
+    <!--Player List-->
+    <item name="tvPlayer" type="id" />
+    <item name="ivPlayer" type="id" />
+    <item name="tvPositionPlayer" type="id" />
+    <item name="rvPlayer" type="id" />
+
+    <!--Overview Fragment-->
+    <item name="tvDescTeamDetail" type="id" />
+
+    <!--Detail-->
+    <item name="ivImageDetail" type="id" />
+    <item name="tvTitleDetail" type="id" />
+    <item name="tvDescDetail" type="id" />
+
+    <item name="tvDatePastMatch" type="id"/>
+    <item name="tvHomeTeamPast" type="id" />
+    <item name="tvAwayTeamPast" type="id" />
+    <item name="tvHomeSkorPast" type="id" />
+    <item name="tvAwaySkorPast" type="id" />
+</resources>

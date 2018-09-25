@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDate">#f4709d</color>
+    <color name="windowBackground">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primaryText">#414141</color>
+    <color name="secondaryText">#616161</color>
+    <color name="colorText">#cfc129</color>
+    <color name="iconMenuColor">#FFFFFF</color>
+
+    <color name="transparent_black">#cc000000</color>
+    <color name="card_background">#8b8b8b</color>
+    <color name="player_fragment_background">#e8ffe7</color>
+</resources>

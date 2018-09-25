@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".kelas.KelasActivity">
+    <item
+        android:id="@+id/search_match"
+        android:icon="@drawable/v_ic_mn_search"
+        android:title="@string/search_match"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+</menu>

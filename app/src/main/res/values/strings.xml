@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Football App</string>
+    <string name="text_apps">Football App</string>
+    <string name="text_splash_screen">Aplikasi Football Schedule, to complete submission Final</string>
+    <string name="text_matches">Matches</string>
+    <string name="text_teams">Teams</string>
+    <string name="text_prev_match">Prev Match</string>
+    <string name="text_next_match">Next Match</string>
+    <string name="text_next_favorite">Favorite</string>
+    <string name="msg_exit">Tap sekali lagi untuk keluar</string>
+    <string name="title_activity_detail">Schedule Detail</string>
+    <string name="versus">VS</string>
+    <string name="highlight_coming_soon">Highlight coming soon</string>
+    <string name="no_data">Tidak Ada Data</string>
+    <string name="text_null" />
+    <string name="text_tryAgain">Coba Lagi</string>
+    <string name="error_get_data">Terjadi Kesalahan</string>
+    <string name="text_highlight">Highlight</string>
+    <string name="text_goal">Goal</string>
+    <string name="text_lineup">Lineup</string>
+    <string name="text_gk">Goal Keeper</string>
+    <string name="text_df">Defense</string>
+    <string name="text_mdf">Midfield</string>
+    <string name="text_fw">Forward</string>
+    <string name="favorites">Favourite</string>
+    <string name="text_choice_league">Pilih Liga</string>
+    <string name="text_choice">Pilih</string>
+    <string name="text_height">Height</string>
+    <string name="text_weight">Weight</string>
+    <string name="text_about_player">About Player</string>
+    <string name="search">Search</string>
+    <string name="search_team">Search Team</string>
+    <string name="search_match">Search Match</string>
+
+</resources>
